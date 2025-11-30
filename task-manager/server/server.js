@@ -17,7 +17,7 @@ const app = express();
 // The domain of your Vercel frontend. 
 // You MUST set this as an environment variable (e.g., CLIENT_URL) in Render for production.
 // For now, we'll hardcode the one you used in Vercel for a quick fix.
-const CLIENT_URL = 'https://taskmanager-jet-chi.vercel.app'; 
+const CLIENT_URL = 'https://web-dev-nw9s.vercel.app/'; 
 
 if (process.env.NODE_ENV === 'production') {
     // Production settings: Only allow requests from the deployed frontend URL
